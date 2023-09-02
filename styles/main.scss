@@ -1,3 +1,14 @@
+@import './constants/color';
+@import './_reset';
+
+$hongsi: 1;
+$HONGSI: 2;
+
 p {
-  color: red;
+  line-height: $hongsi;
+}
+
+a {
+  $hongsi: 2;
+  line-height: $hongsi;
 }
