@@ -2,3 +2,8 @@
 @import './constants/typography';
 @import './_reset';
 @import './layouts/grids';
+@import './mixins/text-style';
+
+p {
+  @include text-style-12;
+}
