@@ -1,14 +1,4 @@
 @import './constants/color';
+@import './constants/typography';
 @import './_reset';
-
-$hongsi: 1;
-$HONGSI: 2;
-
-p {
-  line-height: $hongsi;
-}
-
-a {
-  $hongsi: 2;
-  line-height: $hongsi;
-}
+@import './layouts/grids';
