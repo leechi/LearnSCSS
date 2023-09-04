@@ -1,9 +1,10 @@
 @import './constants/color';
 @import './constants/typography';
+@import './constants/breakpoint';
 @import './_reset';
 @import './layouts/grids';
 @import './mixins/text-style';
-
+@import './mixins/_responsive.scss';
 p {
   @include text-style-12;
 }
