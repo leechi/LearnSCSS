@@ -5,6 +5,8 @@
 @import './layouts/grids';
 @import './mixins/text-style';
 @import './mixins/_responsive.scss';
+@import './mixins/positions.scss';
+
 p {
   @include text-style-12;
 }
