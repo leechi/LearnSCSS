@@ -11,9 +11,9 @@
 
 @import './modules/_tags.scss';
 @import './modules/avatas';
-@import './modules/start-ratings.scss';
+@import './modules/star-ratings.scss';
 @import './modules/prices';
-
+@import './modules/buttons';
 p {
   @include text-style-12;
 }
