@@ -10,6 +10,7 @@
 @import './mixins/_flexbox.scss';
 
 @import './modules/_tags.scss';
+@import './modules/avatas';
 
 p {
   @include text-style-12;
