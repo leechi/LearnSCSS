@@ -7,7 +7,9 @@
 @import './mixins/text-style';
 @import './mixins/_responsive.scss';
 @import './mixins/_positions.scss';
-@import '/mixins/_flexbox.scss';
+@import './mixins/_flexbox.scss';
+
+@import './modules/_tags.scss';
 
 p {
   @include text-style-12;
