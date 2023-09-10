@@ -11,6 +11,9 @@
 
 @import './modules/_tags.scss';
 @import './modules/avatas';
-@import './modules/start-ratings.scss' p {
+@import './modules/start-ratings.scss';
+@import './modules/prices';
+
+p {
   @include text-style-12;
 }
